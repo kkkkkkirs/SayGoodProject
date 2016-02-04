@@ -30,7 +30,7 @@ public class GetClientAction extends ActionBase {
        try{
 		Client clientTemp = new Client();
 		if (info != null) {
-			clientTemp.setInfo("aliyun");
+			clientTemp.setInfo(info);
 		}
 		client = userService.getClient(clientTemp);
 		if (client != null) {
