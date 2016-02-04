@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+                            "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                            "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.saygood.soft.model">
+    <class name="Client" table="client_info">
+        <id name="id" column="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property name="info" column="info" type="java.lang.String" />
+        <property name="score" column="score" type="java.lang.Integer" />
+        <property name="classifyId" column="classify" type="java.lang.Integer" />
+    </class>
+</hibernate-mapping>

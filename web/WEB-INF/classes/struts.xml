@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+   "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+   "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+
+	<package name="default" namespace="/" extends="json-default">
+
+		<action name="getclient" method="login"
+			class="com.saygood.soft.actions.GetClientAction">
+			<result name="success" type="json">
+				<param name="includeProperties">
+					message,client\.id,client\.info,client\.score,client.classfyId
+				</param>
+
+			</result>
+			<result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result> 
+
+		</action>
+        <action name="save" class="com.saygood.soft.actions.SaveAction">
+            <result name="success" type="json">
+                <param name="includeProperties">
+					message
+				</param>
+            </result>
+            <result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result>
+        </action>
+        <action name="getlist" class="com.saygood.soft.actions.GetClientListAction">
+            <result name="success" type="json">
+                <param name="includeProperties">
+					message,size,firtResult,maxResult,clientList\[\d+\]\.id,clientList\[\d+\]\.info,
+					clientList\[\d+\]\.score,clientList\[\d+\]\.classifyId
+				</param>
+            </result>
+            <result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result>
+        </action>
+        <action name="getlcfi" class="com.saygood.soft.actions.GetClientsByClassifyIdAction">
+            <result name="success" type="json">
+                <param name="includeProperties">
+					message,size,firtResult,maxResult,clientList\[\d+\]\.id,clientList\[\d+\]\.info,
+					clientList\[\d+\]\.score,clientList\[\d+\]\.classifyId
+				</param>
+            </result>
+            <result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result>
+        </action>
+	</package>
+
+</struts>  
