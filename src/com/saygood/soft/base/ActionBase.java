@@ -18,11 +18,11 @@ import com.opensymphony.xwork2.ActionSupport;
 public class ActionBase extends ActionSupport implements RequestAware,  
        SessionAware, ApplicationAware {  
   
-   private static final long serialVersionUID = 1L;  
+    private static final long serialVersionUID = 1L;
   
     protected Map<String, Object> request;  
     protected Map<String, Object> session;  
-   protected Map<String, Object> application;  
+    protected Map<String, Object> application;
   
     public Map<String, Object> getRequest() {  
         return request;  
@@ -32,7 +32,7 @@ public class ActionBase extends ActionSupport implements RequestAware,
         return session;  
    }  
  
-   public Map<String, Object> getApplication() {  
+    public Map<String, Object> getApplication() {
        return application;  
     }  
 
@@ -47,7 +47,7 @@ public class ActionBase extends ActionSupport implements RequestAware,
     }  
   
     @Override  
-   public void setApplication(Map<String, Object> application) {  
+    public void setApplication(Map<String, Object> application) {
         this.application = application;  
     }  
  
