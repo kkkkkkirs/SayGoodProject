@@ -12,7 +12,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.opensymphony.xwork2.ActionSupport;
 
 /**
- * @author IA
+ * @author kris
  *
  */
 public class ActionBase extends ActionSupport implements RequestAware,  
