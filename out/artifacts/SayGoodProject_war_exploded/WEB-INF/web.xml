@@ -5,7 +5,7 @@
          version="3.1">
 <!-- Welcome File List -->
 <welcome-file-list>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>bootstrap/saygoodproject/html/index.html</welcome-file>
 </welcome-file-list>
 
 <!-- WebApp Root -->
