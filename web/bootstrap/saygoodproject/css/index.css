@@ -1,0 +1,7 @@
+html,body{margin:0;padding: 0;}
+header{background-color: #ffe4c4;}
+main{background-color: #bdb76b;}
+
+/* 动态为footer添加类fixed-bottom */
+/*text-align:center;让文字居中*/
+.fixed-bottom {position: fixed;bottom: 20px;width:100%;text-align:center;}

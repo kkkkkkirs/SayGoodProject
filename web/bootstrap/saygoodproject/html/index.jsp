@@ -1,21 +1,23 @@
-<!DOCTYPE html>
+<%@page language="java" import="java.util.*" contentType="text/html; charset=GB2312" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>å¥½ç‰©ç½‘</title>
+    <title>ºÃÎïÍø</title>
 
-    <!-- æ–° Bootstrap æ ¸å¿ƒ CSS æ–‡ä»¶ -->
+    <!-- ĞÂ Bootstrap ºËĞÄ CSS ÎÄ¼ş -->
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- å¯é€‰çš„Bootstrapä¸»é¢˜æ–‡ä»¶ï¼ˆä¸€èˆ¬ä¸ç”¨å¼•å…¥ï¼‰ -->
+    <!-- ¿ÉÑ¡µÄBootstrapÖ÷ÌâÎÄ¼ş£¨Ò»°ã²»ÓÃÒıÈë£© -->
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../bootstrap/saygoodproject/css/index.css">
 
-    <!-- jQueryæ–‡ä»¶ã€‚åŠ¡å¿…åœ¨bootstrap.min.js ä¹‹å‰å¼•å…¥ -->
+    <!-- jQueryÎÄ¼ş¡£Îñ±ØÔÚbootstrap.min.js Ö®Ç°ÒıÈë -->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 
-    <!-- æœ€æ–°çš„ Bootstrap æ ¸å¿ƒ JavaScript æ–‡ä»¶ -->
+    <!-- ×îĞÂµÄ Bootstrap ºËĞÄ JavaScript ÎÄ¼ş -->
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../bootstrap/saygoodproject/slice-box/js/modernizr.custom.46884.js"></script>
     <script type="text/javascript" src="../bootstrap/saygoodproject/slice-box/js/jquery.slicebox.js"></script>
@@ -25,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="../bootstrap/saygoodproject/slice-box/css/custom.css" />
 
     <script type="text/javascript" src="../bootstrap/saygoodproject/slice-box/js/modernizr.custom.46884.js"></script>
-    <!--å…¼å®¹4.1ä¹‹å‰çš„Android-->
+    <!--¼æÈİ4.1Ö®Ç°µÄAndroid-->
     <script>
         $(function () {
             var nua = navigator.userAgent
@@ -34,6 +36,21 @@
                 $('select.form-control').removeClass('form-control').css('width', '100%')
             }
         })
+        $(function(){
+            function footerPosition(){
+                $("footer").removeClass("fixed-bottom");
+                var contentHeight = document.body.scrollHeight,//ÍøÒ³ÕıÎÄÈ«ÎÄ¸ß¶È
+                        winHeight = window.innerHeight;//¿ÉÊÓ´°¿Ú¸ß¶È£¬²»°üÀ¨ä¯ÀÀÆ÷¶¥²¿¹¤¾ßÀ¸
+                if(!(contentHeight > winHeight)){
+                    //µ±ÍøÒ³ÕıÎÄ¸ß¶ÈĞ¡ÓÚ¿ÉÊÓ´°¿Ú¸ß¶ÈÊ±£¬ÎªfooterÌí¼ÓÀàfixed-bottom
+                    $("footer").addClass("fixed-bottom");
+                } else {
+                    $("footer").removeClass("fixed-bottom");
+                }
+            }
+            footerPosition();
+            $(window).resize(footerPosition);
+        });
     </script>
     <script type="text/javascript">
         $(function() {
@@ -126,16 +143,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">å¥½ç‰©ç½‘</a>
+            <a class="navbar-brand" href="#">ºÃÎïÍø</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">åº”å±Šç”Ÿåœˆ <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">è¥¿éƒ¨æœå“ç½‘</a></li>
+                <li class="active"><a href="#">Ó¦½ìÉúÈ¦ <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Î÷²¿¹ûÆ·Íø</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">æ›´å¤š <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¸ü¶à <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
                         <li><a href="#">Another action</a></li>
@@ -154,15 +171,15 @@
                 <button type="submit" class="btn btn-default">GO</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">æ‰«ç çœ‹</a></li>
+                <li><a href="#">É¨Âë¿´</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">æŸ¥çœ‹æ›´å¤š <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">²é¿´¸ü¶à <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">åå°ç®¡ç†</a></li>
+                        <li><a href="#">ºóÌ¨¹ÜÀí</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="bootstrap/saygoodproject/html/about.html">å…³äºæˆ‘ä»¬</a></li>
+                        <li><a href="bootstrap/saygoodproject/html/about.html">¹ØÓÚÎÒÃÇ</a></li>
                     </ul>
                 </li>
             </ul>
@@ -237,6 +254,9 @@
         </div><!-- /wrapper -->
 
     </div>
+<footer >
+    <jsp:include page="footer.html"></jsp:include>
+</footer>
 
 </body>
 </html>

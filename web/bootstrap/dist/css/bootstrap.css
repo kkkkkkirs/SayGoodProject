@@ -5611,7 +5611,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-brand
 {
-    font-size: 18px;
+    font-size: 22px;
     line-height: 20px;
 
     float: left;
@@ -5916,7 +5916,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 }
 .navbar-default .navbar-brand
 {
-    color: #777;
+    /*color: #777;*/
+    color: #333;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus

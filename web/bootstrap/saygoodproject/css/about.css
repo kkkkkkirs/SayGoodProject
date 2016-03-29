@@ -1,6 +1,6 @@
 #content {
     position:absolute; left:30%; right:0; top:0; bottom:0;
-    overflow:auto; height:340px;
+    overflow:auto; height:800px;
     padding:20px; margin:20px;
 }
 #floater {
@@ -16,4 +16,11 @@
     margin-left: -100px;/*值的大小等于元素宽度的一半*/
     top:50%;/*配合margin-top的负值实现垂直居中*/
     margin-top: 100px;/*值的大小等于元素高度的一半*/
+}
+
+.text{
+    margin-top: 100px;
+    font-family: 'Microsoft Yahei';
+    font-size: 26px;
+    color: #019157;
 }
