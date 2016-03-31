@@ -329,7 +329,7 @@
                 <p class="list-group-item-text">
                     我们提供 24小时 支持。
                 </p>
-                <img style="height: 22.5%;" src="/bootstrap/saygoodproject/images/kefu.png">
+                <img style="height: 100px;width: 98%" src="/bootstrap/saygoodproject/images/kefu.png">
             </a>
         </div>
     </div>
