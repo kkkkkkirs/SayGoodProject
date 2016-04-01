@@ -17,10 +17,27 @@
     top:50%;/*配合margin-top的负值实现垂直居中*/
     margin-top: 100px;/*值的大小等于元素高度的一半*/
 }
+.content-center {
+    width: 400px;/*元素的宽度*/
+    height:800px;/*元素的高度*/
+    position: absolute;
+    left: 50%;/*配合margin-left的负值实现水平居中*/
+    margin-left: -100px;/*值的大小等于元素宽度的一半*/
+    top:50%;/*配合margin-top的负值实现垂直居中*/
+    margin-top: 100px;/*值的大小等于元素高度的一半*/
+}
 
 .text{
     margin-top: 100px;
     font-family: 'Microsoft Yahei';
     font-size: 26px;
+    color: #019157;
+}
+.text-center{
+    margin-top: 100px;
+    font-family: 'Microsoft Yahei';
+    font-size: 26px;
+    text-align:center;
+    float: inherit;
     color: #019157;
 }

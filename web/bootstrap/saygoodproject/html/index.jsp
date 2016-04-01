@@ -21,7 +21,7 @@
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/bootstrap/saygoodproject/slice-box/js/modernizr.custom.46884.js"></script>
     <script type="text/javascript" src="/bootstrap/saygoodproject/slice-box/js/jquery.slicebox.js"></script>
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="/bootstrap/saygoodproject/images/haowuicon2.png">
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/slicebox.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/custom.css"/>
