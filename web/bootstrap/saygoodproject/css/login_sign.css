@@ -1,0 +1,40 @@
+/* 定义辅助CSS */
+
+body {
+    font-family: 'microsoft yahei', Arial, sans-serif;
+}
+
+.title {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 10px 0;
+}
+
+.btn-gb {
+    border-radius: 0;
+    background: orange;
+    padding: 15px 50px;
+    border: 0px solid #fff;
+    color: #FFF;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.btn-gblogin {
+    background: #888;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.btn-loc-sign {
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.loginform {
+    background: #DDD;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
