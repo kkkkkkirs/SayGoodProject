@@ -97,7 +97,6 @@
                 success:function(json){
 
                     if ($.trim(json.message)==$.trim("success")){
-                        alert(json.message);
                         var dataList=json.scanViewModelList;
                         $.each(dataList,function(i,n){
                             var trStr="";
