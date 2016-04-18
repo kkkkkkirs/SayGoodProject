@@ -35,7 +35,7 @@ public class GetClientAction extends ActionBase {
 		client = userService.getClient(clientTemp);
 		if (client != null) {
 			session.put("client", client);
-			message="sucess";
+			message="success";
 		}else{
 			message="no result!";
 		}

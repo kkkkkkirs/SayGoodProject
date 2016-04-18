@@ -3,26 +3,26 @@
  */
 package com.saygood.soft.actions;
 
+
 import com.saygood.soft.base.ActionBase;
 import com.saygood.soft.model.Client;
+import com.saygood.soft.model.ScanViewModel;
 import com.saygood.soft.service.UserService;
 
 import java.util.List;
 
-
 /**
- * Action:get list of clients
+ * Action:get list of scanview models
  * 
- * @author zhang kaiqiang 2013-5-20 9:54:45
+ * @author KrisZhang 2016-04-16 01:02:44
  * 
  */
-public class GetClientsByClassifyIdAction extends ActionBase {
+public class GetScanViewListAction extends ActionBase {
 
 	private static final long serialVersionUID = 1L;
 	private UserService userService;
-	private List<Client> clientList;
+	private List<ScanViewModel> scanViewModelList;
 	private int size;
-	private int classifyId;
 	private int firtResult;
 	private int maxResult;
 	private String message;
@@ -30,9 +30,9 @@ public class GetClientsByClassifyIdAction extends ActionBase {
 	@Override
 	public String execute() throws Exception {
 		try {
-			clientList = userService.getClientListByClassifyId(classifyId,firtResult, maxResult);
-			if (clientList != null) {
-				size = clientList.size();
+			scanViewModelList = userService.getScanViewList(firtResult, maxResult);
+			if (scanViewModelList != null) {
+				size = scanViewModelList.size();
 				message = "success";
 			} else {
 				message = "no result";
@@ -52,12 +52,12 @@ public class GetClientsByClassifyIdAction extends ActionBase {
 		this.userService = userService;
 	}
 
-	public List<Client> getClientList() {
-		return clientList;
+	public List<ScanViewModel> getScanViewModelList() {
+		return scanViewModelList;
 	}
 
-	public void setClientList(List<Client> clientList) {
-		this.clientList = clientList;
+	public void setScanViewModelList(List<ScanViewModel> scanViewModelList) {
+		this.scanViewModelList = scanViewModelList;
 	}
 
 	public String getMessage() {
@@ -90,14 +90,6 @@ public class GetClientsByClassifyIdAction extends ActionBase {
 
 	public void setMaxResult(int maxResult) {
 		this.maxResult = maxResult;
-	}
-
-	public int getClassifyId() {
-		return classifyId;
-	}
-
-	public void setClassifyId(int classifyId) {
-		this.classifyId = classifyId;
 	}
 
 }

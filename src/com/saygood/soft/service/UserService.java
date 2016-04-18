@@ -3,6 +3,7 @@
  */
 package com.saygood.soft.service;
 import com.saygood.soft.model.Client;
+import com.saygood.soft.model.ScanViewModel;
 
 import java.util.List;
 
@@ -38,6 +39,14 @@ public interface UserService {
 	    * @return the list of clients
 	    */
 	   List<Client> getClientList(int firtResult, int maxResult);
+	  /**
+	    * @author KrisZhang
+	    * 2016-04-16 00:42:53
+	    * @param firtResult
+	    * @param maxResult
+	    * @return the list of scanview models
+	    */
+	   List<ScanViewModel> getScanViewList(int firtResult, int maxResult);
 	   
 	   /**
 	    * zhang kaiqiang

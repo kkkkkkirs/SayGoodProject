@@ -94,6 +94,12 @@
         <property name="userService">  
             <ref bean="userService" />  
         </property>  
-   </bean> 
+   </bean>
+    <bean id="getscvmlistAction" class="com.saygood.soft.actions.GetScanViewListAction"
+       scope="session">
+        <property name="userService">
+            <ref bean="userService" />
+        </property>
+   </bean>
  
 </beans>  

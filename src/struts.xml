@@ -50,6 +50,19 @@
 				</param>
 			</result>
         </action>
+		<action name="getscvmlist" class="com.saygood.soft.actions.GetScanViewListAction">
+            <result name="success" type="json">
+                <param name="includeProperties">
+					message,size,firtResult,maxResult,scanViewModelList\[\d+\]\.id,scanViewModelList\[\d+\]\.title,
+					scanViewModelList\[\d+\]\.content,scanViewModelList\[\d+\]\.publisher,scanViewModelList\[\d+\]\.scanUrl
+				</param>
+            </result>
+            <result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result>
+        </action>
         <action name="getlcfi" class="com.saygood.soft.actions.GetClientsByClassifyIdAction">
             <result name="success" type="json">
                 <param name="includeProperties">

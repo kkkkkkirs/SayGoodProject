@@ -32,7 +32,7 @@ public class GetClientListAction extends ActionBase {
 			clientList = userService.getClientList(firtResult, maxResult);
 			if (clientList != null) {
 				size = clientList.size();
-				message = "sucess";
+				message = "success";
 			} else {
 				message = "no result";
 			}

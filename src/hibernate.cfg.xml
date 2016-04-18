@@ -16,6 +16,7 @@
         <property name="hbm2ddl.auto">update</property>  
   
        <mapping resource="com/saygood/soft/model/Client.hbm.xml" />
-   </session-factory>  
+       <mapping resource="com/saygood/soft/model/ScanViewModel.hbm.xml" />
+   </session-factory>
   
 </hibernate-configuration>

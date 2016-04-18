@@ -6,6 +6,7 @@ package com.saygood.soft.service.impl;
 
 import com.saygood.soft.dao.BaseDao;
 import com.saygood.soft.model.Client;
+import com.saygood.soft.model.ScanViewModel;
 import com.saygood.soft.service.UserService;
 
 import java.util.List;
@@ -97,7 +98,9 @@ public class UserServiceImpl implements UserService {
 		return baseDao.findByPage("from Client c where classifyId=? order by c.score DESC ", Client.class,classifyId, firstResult, maxResult);
 	}
 
-	
 
-	
+	@Override
+	public List<ScanViewModel> getScanViewList(int firtResult, int maxResult) {
+		return baseDao.findByPage("from ScanViewModel svm order by svm.id ASC", ScanViewModel.class,firtResult,maxResult);
+	}
 }
