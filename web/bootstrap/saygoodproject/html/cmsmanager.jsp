@@ -1,9 +1,11 @@
+<%@page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>好物网-扫码付</title>
+    <title>扫码付数据录入系统</title>
 
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
@@ -23,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/slicebox.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/custom.css"/>
-    <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/css/scanview.css"/>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/css/cmsmanager.css"/>
 
     <script type="text/javascript" src="/bootstrap/saygoodproject/slice-box/js/modernizr.custom.46884.js"></script>
     <!--兼容4.1之前的Android-->
@@ -86,29 +88,10 @@
                     top: 125
                 }
             });
-            getScanViewData();
         });
-        function getScanViewData(){
-            $.ajax({
-                type:"GET",
-                dataType:"json",
-                url:"http://localhost:8086/getscvmlist.action",
-//                data:{user:"",name="",token:""},
-                success:function(json){
-
-                    if ($.trim(json.message)==$.trim("success")){
-                        var dataList=json.scanViewModelList;
-                        $.each(dataList,function(i,n){
-                            var trStr="";
-                            trStr+="<tr><td>"+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+n.id+"</td>"+"<td>"+ n.title+"</td>"+"<td>"+ n.content+"</td><td>"+ n.publisher+"</td>"+"<td class='filterable-cell'>" +
-                                    "<img style='width: 150px;height: 150px'src='/bootstrap/saygoodproject/images/zxing.png'>"+"</td></tr>";
-                            $("#tsvbody").append(trStr);
-                        });
-                    }
-
-                }
-            });
-        }
+        function saveScanViewData(){
+            alert("hello");
+        };
     </script>
 </head>
 
@@ -125,14 +108,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">好物网</a>
+            <a class="navbar-brand" href="#">好物网-后台管理系统</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="#">应届生圈 <span class="sr-only">(current)</span></a></li>
-                <li><a href="/bootstrap/saygoodproject/html/index.jsp">西部果品网</a></li>
+                <li><a href="#">应届生圈数据管理 <span class="sr-only">(current)</span></a></li>
+                <li><a href="/bootstrap/saygoodproject/html/index.jsp">西部果品网数据管理</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">更多 <span class="caret"></span></a>
@@ -154,49 +137,49 @@
                 <button type="submit" class="btn btn-default">GO</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">圈内</a></li>
-                <li class="active"><a href="/bootstrap/saygoodproject/html/scanview.html">扫码看</a></li>
+                <li><a href="#">圈内数据管理</a></li>
+                <li class="active"><a href="/bootstrap/saygoodproject/html/scanview.html">扫码看数据管理</a></li>
                 <li><a href="/bootstrap/saygoodproject/html/login_sign.html">登录 | 注册</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">查看更多 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/bootstrap/saygoodproject/html/login_sign_manager.html">后台管理</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="/bootstrap/saygoodproject/html/about.html">关于我们</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-    <div class="container">
-        <table class="table table-hover table-content">
-            <thead>
-            <tr>
-                <th>&nbsp;&nbsp;编&nbsp;&nbsp;号</th>
-                <th>标&nbsp;&nbsp;题</th>
-                <th>内容简介</th>
-                <th>发布者</th>
-                <th>扫二维码查看详情</th>
-            </tr>
-            </thead>
-            <tbody id="tsvbody"></tbody>
-        </table>
-    </div>
-<div class="fixed-bottom">
-    <footer>
-        <div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6 scanviewform">
+            <h4 class="title">请录入 <label style="color: green">扫码看</label> 数据表信息</h4>
+            <form action="saveScanView.action">
+                <div class="form-group">
+                    <label for="serialize">编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</label>
+                    <input id="serialize" name="scanViewModel.id" class="form-control" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题</label>
+                    <input id="title" name="scanViewModel.title" class="form-control" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label for="content">内容简介</label>
+                    <input class="form-control" id="content" name="scanViewModel.content" type="text" aria-multiline="true"/>
+                </div>
+                <div class="form-group">
+                    <label for="publisher">发&nbsp;&nbsp;布&nbsp;&nbsp; 者</label>
+                    <input class="form-control" id="publisher" name="scanViewModel.publisher" type="text"/>
+                </div>
+                <input type="submit" class="btn btn-default btn-gb btn-gblogin" value="提交">
 
-            Copyright &copy; 2015-2016
-            <strong><a href="http://www.runoob.com/" target="_blank">好物网</a></strong>&nbsp;
-            <strong><a href="http://www.runoob.com/" target="_blank">西部果品网</a></strong>
-            &nbsp;
-            <strong><a href="http://www.runoob.com/" target="_blank">应届生圈</a></strong> All Rights Reserved. 备案号：京ICP备15012807号-1
+            </form>
         </div>
-    </footer>
+    </div>
 </div>
 </body>
 </html>

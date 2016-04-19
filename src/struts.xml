@@ -37,6 +37,18 @@
 				</param>
 			</result>
         </action>
+		<action name="saveScanView" class="com.saygood.soft.actions.SaveScanViewAction">
+            <result name="success" type="json">
+                <param name="includeProperties">
+					message
+				</param>
+            </result>
+            <result name="input" type="json">
+				<param name="includeProperties">
+					message
+				</param>
+			</result>
+        </action>
         <action name="getlist" class="com.saygood.soft.actions.GetClientListAction">
             <result name="success" type="json">
                 <param name="includeProperties">

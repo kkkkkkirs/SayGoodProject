@@ -15,7 +15,14 @@ import java.util.List;
 public interface UserService {
 
 	    Client getClient(Client client);
-	   
+
+	/**
+	 * 查询指定的scanViewModel
+	 * @param scanViewModel
+	 * @return
+     */
+	    ScanViewModel getScanViewModel(ScanViewModel scanViewModel);
+
 	   /**
 	    * when a client is accepted, save the client infomation
 	    * zhang kaiqiang
@@ -23,7 +30,20 @@ public interface UserService {
 	    * @return 0-fail,1-success
 	    */
 	   int saveClient(Client client);
+	  /**
+	    * when a client is accepted, save the client infomation
+	    * zhang kaiqiang
+	    * @param scanViewModel
+	    * @return 0-fail,1-success
+	    */
+	   int saveScanViewModel(ScanViewModel scanViewModel);
 	   
+	   /**
+		 * zhang kaiqiang
+		 * 2016-04-18 17:36:52
+		 * @return 0-fail, 1-success
+		 */
+	   int updateScanViewModel(ScanViewModel scanViewModel);
 	   /**
 		 * zhang kaiqiang
 		 * 2013-5-20 14:57:35

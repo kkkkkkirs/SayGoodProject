@@ -47,7 +47,7 @@ public class UserServiceImpl implements UserService {
 			flag = 1;
 		} catch (Exception e) {
 			flag = 0;
-			// e.printStackTrace();
+			 e.printStackTrace();
 		}
 		return flag;
 	}
@@ -66,6 +66,35 @@ public class UserServiceImpl implements UserService {
 			baseDao.updateClient(
 					"update Client c set c.score=? where c.info=? and c.classifyId=?",
 					Client.class, params);
+			flag = 1;
+		} catch (Exception e) {
+			flag = 0;
+		}
+		return flag;
+	}
+
+	@Override
+	public int saveScanViewModel(ScanViewModel scanViewModel) {
+		int flag = 0;
+
+		try {
+			baseDao.save(scanViewModel);
+			flag = 1;
+		} catch (Exception e) {
+			flag = 0;
+//			 e.printStackTrace();
+		}
+		return flag;
+	}
+
+	@Override
+	public int updateScanViewModel(ScanViewModel scanViewModel) {
+		int flag = 0;
+		try {
+			Object[] params = new Object[] {
+					scanViewModel.getTitle(),scanViewModel.getContent(),scanViewModel.getPublisher(),scanViewModel.getId() };
+			baseDao.updateClient("update ScanViewModel svm set  svm.title=? , svm.content=?,svm.publisher where svm.id=?",
+					ScanViewModel.class, params);
 			flag = 1;
 		} catch (Exception e) {
 			flag = 0;
@@ -102,5 +131,15 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public List<ScanViewModel> getScanViewList(int firtResult, int maxResult) {
 		return baseDao.findByPage("from ScanViewModel svm order by svm.id ASC", ScanViewModel.class,firtResult,maxResult);
+	}
+
+	@Override
+	public ScanViewModel getScanViewModel(ScanViewModel scanViewModel) {
+		List<ScanViewModel> list = baseDao.findAll("from ScanViewModel svm  where svm.id = ?",
+				ScanViewModel.class, new Object[] { scanViewModel.getId() });
+		if (list.size() > 0) {
+			return list.get(0);
+		}
+		return null;
 	}
 }

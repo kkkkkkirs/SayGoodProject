@@ -232,7 +232,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">查看更多 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">后台管理</a></li>
+                        <li><a href="/bootstrap/saygoodproject/html/login_sign_manager.html">后台管理</a></li>
                         <li><a href="#">Another action</a></li>
                         <li><a href="#">Something else here</a></li>
                         <li role="separator" class="divider"></li>
