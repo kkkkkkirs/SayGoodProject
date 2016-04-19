@@ -20,10 +20,10 @@
         destroy-method="close">  
         <property name="driverClass" value="com.mysql.jdbc.Driver" />  
        <property name="jdbcUrl"   
-            value="jdbc:mysql://127.0.0.1:3306/test" />  
+            value="jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8" />
         <property name="user" value="root" />  
         <property name="password" value="zkq001" />
-   </bean>  
+   </bean>
   
     <!-- SessionFactory -->  
     <bean id="sessionFactory"  
@@ -82,7 +82,13 @@
         <property name="userService">  
             <ref bean="userService" />  
         </property>  
-   </bean> 
+   </bean>
+    <bean id="saveScanViewAction" class="com.saygood.soft.actions.SaveScanViewAction"
+       scope="session">
+        <property name="userService">
+            <ref bean="userService" />
+        </property>
+   </bean>
    <bean id="getlistAction" class="com.saygood.soft.actions.GetClientListAction"
        scope="session">  
         <property name="userService">  
