@@ -10,27 +10,29 @@ import com.saygood.soft.model.ScanViewModel;
 import com.saygood.soft.service.UserService;
 
 /**
- * save infomation of client
+ * save infomation of ScanViewModel
  * 
- * @author zhang kaiqiang 2013-5-20 9:54:45
+ * @author Kris.Zhang 2016-04-19 14:38:10
  * 
  */
 public class SaveScanViewAction extends ActionBase {
 
 	private static final long serialVersionUID = 1L;
 	private UserService userService;
-	private ScanViewModel scanViewModel;
+	private String title;
+	private String content;
+	private String publisher;
 	private String message;
 
 	@Override
 	public String execute() throws Exception {
 		
-		if (scanViewModel != null && !"".equals(scanViewModel.getContent()) && !"".equals(scanViewModel.getTitle()) && !"".equals(scanViewModel.getPublisher())) {
+		if ( !"".equals(title) && !"".equals(content) && !"".equals(publisher)) {
 			ScanViewModel client=new ScanViewModel();
 //			client.setId(scanViewModel.getId());//主键自动递增,不用设置
-			client.setContent(scanViewModel.getContent());
-			client.setPublisher(scanViewModel.getPublisher());
-			client.setTitle(scanViewModel.getTitle());
+			client.setContent(content);
+			client.setPublisher(publisher);
+			client.setTitle(title);
 			ScanViewModel temp=userService.getScanViewModel(client);
 			if(temp==null){
 				int flag = userService.saveScanViewModel(client);
@@ -42,8 +44,13 @@ public class SaveScanViewAction extends ActionBase {
 				}
 				return SUCCESS;
 			} else {
-				userService.updateScanViewModel(client);
-				message = "update Success";
+				int flag=userService.updateScanViewModel(client);
+				if (flag==1){
+					message = "update Success";
+				}else {
+					message = "update Fail!";
+					return INPUT;
+				}
 				return SUCCESS;
 			}
 		}else {
@@ -52,12 +59,28 @@ public class SaveScanViewAction extends ActionBase {
 		return INPUT;
 	}
 
-	public ScanViewModel getScanViewModel() {
-		return scanViewModel;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setScanViewModel(ScanViewModel scanViewModel) {
-		this.scanViewModel = scanViewModel;
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public String getPublisher() {
+		return publisher;
+	}
+
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
 	}
 
 	public UserService getUserService() {

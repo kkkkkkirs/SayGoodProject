@@ -130,7 +130,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public List<ScanViewModel> getScanViewList(int firtResult, int maxResult) {
-		return baseDao.findByPage("from ScanViewModel svm order by svm.id ASC", ScanViewModel.class,firtResult,maxResult);
+		return baseDao.findByPage("from ScanViewModel svm order by svm.id DESC", ScanViewModel.class,firtResult,maxResult);
 	}
 
 	@Override
