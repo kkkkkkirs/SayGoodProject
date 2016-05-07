@@ -248,31 +248,31 @@
 
         <ul id="sb-slider" class="sb-slider">
             <li>
-                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/slice-box/images/1.jpg"
+                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao1.jpeg"
                                                 alt="image1"/></a>
                 <div class="sb-description">
-                    <h3>Creative Lifesaver</h3>
+                    <h3>甘肃省陇西大红椒</h3>
                 </div>
             </li>
             <li>
-                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/slice-box/images/2.jpg"
+                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao2.jpg"
                                                 alt="image2"/></a>
                 <div class="sb-description">
-                    <h3>Honest Entertainer</h3>
+                    <h3>甘肃省陇西大红椒</h3>
                 </div>
             </li>
             <li>
-                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/slice-box/images/3.jpg"
+                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao3.jpg"
                                                 alt="image1"/></a>
                 <div class="sb-description">
-                    <h3>Brave Astronaut</h3>
+                    <h3>甘肃省陇西大红椒</h3>
                 </div>
             </li>
             <li>
-                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/slice-box/images/4.jpg"
+                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao4.jpg"
                                                 alt="image1"/></a>
                 <div class="sb-description">
-                    <h3>Affectionate Decision Maker</h3>
+                    <h3>甘肃省陇西大红椒</h3>
                 </div>
             </li>
             <li>
@@ -368,18 +368,49 @@
         </div>
         <div class="col-xs-6">
             <h2 id="section-1">花椒</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.
-                Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum
-                scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet
-                elementum vestibulum. Vivamus fermentum in arcu in aliquam. Quisque aliquam porta odio in fringilla.
-                Vivamus nisl leo, blandit at bibendum eu, tristique eget risus. Integer aliquet quam ut elit suscipit,
-                id interdum neque porttitor. Integer faucibus ligula.</p>
-            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut
-                tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet
-                gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo
-                viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo
-                ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod.
-                Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
+            <p>
+                <p>花椒的基本介绍</p>
+                <p>花椒为芸香科灌木或小乔木植物青椒的干燥成熟果皮，一般在立秋前后成熟。产于四川、陕西、河南、河北、山西、云南等省，以四川产的质量好，以河北、山西产量为高。花椒是中国特有的香料，位列调料“十三香”之首。无论红烧、卤味、小菜、四川泡菜、鸡鸭鱼羊牛等菜肴均可用到它，也可粗磨成粉和盐拌匀为椒盐，供蘸食用。分为大椒和步椒两种，为良好的调味佐料，也可榨油，出油率在25%以上。花椒油有浓厚的香味，是一种很好的食用油。生产花椒味麻且辣，炒熟后香味才溢出。在烹调上既能单独使用，如花椒面；也能与其他原料配制成调味品，用途极广，效果甚好，如五香面、花椒盐、葱椒盐等。</p>
+                <p>花椒的功效与作用</p>
+                <p>
+                花椒味辛、性热，归脾、胃经；有芳香健胃，温中散寒，除湿止痛，杀虫解毒，止痒解腥之功效；主要治疗呕吐，风寒湿痹，齿痛等症。
+                    </p>
+                1.增加食欲<br>
+                花椒气味芳香，可除各种肉类的腥膻臭气，能促进唾液分泌，增加食欲。<br>
+                2.降血压<br>
+                有研究发现，花椒能使血管扩张，从而能起到降低血压的作用。<br>
+                3.驱虫<br>
+                服食花椒水能驱除寄生虫。<br>
+                4.粮食防虫<br>
+                存放的粮食被蛀了，用布包上几十粒花椒放入，虫就会自己跑走或死去。<br>
+                5.油脂防“哈味”<br>
+                在油脂中放入适量的花椒末，就可防止油脂变哈味。<br>
+                6.菜橱防蚁<br>
+                在菜橱内放置数十粒鲜花椒，蚂蚁就不敢进去。<br>
+                7.食品防蝇<br>
+                在食品旁边和肉上放一些花椒，苍蝇就不会爬。<br>
+                8.沸油防溢<br>
+                油炸食物时，如果油热到沸点，会从锅里溢出，但如放入几粒花椒后，沸油就会立即消落。<br>
+                9.防牙痛<br>
+                如果是冷热食物引起的牙痛，用一粒花椒放在患痛的牙上，痛感就会慢慢消失。<br>
+
+                花椒的营养价值<br>
+                果皮含有挥发油，油的主要成分为柠檬烯、枯醇、牛儿醇。此外并含有植物甾醇及不饱和有机酸等多种化合物。<br>
+
+                花椒的选购<br>
+                选购花椒的时候：一看，花椒以籽小、壳浅紫色的为好；二闻，好花椒如果没加热，香味难出；三搓，搓后有香味的就是好花椒，且搓后手上留重色或放在水中有重色彩渗出的，则可能有色素；外壳潮湿、无油润感的为次。<br>
+
+                花椒的存储<br>
+                花椒受潮后会生白膜、变味。保管时要放在干燥的地方，注意防潮。<br>
+                <p>
+                花椒的食用方法<br>
+                1.炒菜时，在锅内热油中放几粒花椒，发黑后捞出，留油炒菜，菜香扑鼻。<br>
+                2.炸花椒油时油温不宜过高。<br>
+                3.把花椒、植物油、酱油烧热，浇在凉拌菜上，清爽可口。<br>
+                4.腌制萝卜丝时放入花椒，味道绝佳。<br>
+                </p>
+
+            </p>
             <hr>
             <h2 id="section-2">苹果</h2>
             <p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus. Suspendisse ultrices placerat
