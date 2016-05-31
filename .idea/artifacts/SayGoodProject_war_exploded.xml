@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="SayGoodProject:war exploded">
+  <artifact type="war" name="SayGoodProject:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/SayGoodProject_war_exploded</output-path>
-    <root id="root">
+    <root id="archive" name="SayGoodProject_war exploded.war">
       <element id="javaee-facet-resources" facet="SayGoodProject/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

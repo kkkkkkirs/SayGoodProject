@@ -21,7 +21,7 @@
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/bootstrap/saygoodproject/slice-box/js/modernizr.custom.46884.js"></script>
     <script type="text/javascript" src="/bootstrap/saygoodproject/slice-box/js/jquery.slicebox.js"></script>
-    <link rel="shortcut icon" href="/bootstrap/saygoodproject/images/haowuicon2.png">
+    <link rel="shortcut icon" href="/bootstrap/saygoodproject/images/haowuicon.png">
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/slicebox.css"/>
     <link rel="stylesheet" type="text/css" href="/bootstrap/saygoodproject/slice-box/css/custom.css"/>
@@ -248,7 +248,7 @@
 
         <ul id="sb-slider" class="sb-slider">
             <li>
-                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao1.jpeg"
+                <a href="" target="_blank"><img src="/bootstrap/saygoodproject/images/huajiao1.jpg"
                                                 alt="image1"/></a>
                 <div class="sb-description">
                     <h3>甘肃省陇西大红椒</h3>
@@ -413,16 +413,10 @@
             </p>
             <hr>
             <h2 id="section-2">苹果</h2>
-            <p>Nullam hendrerit justo non leo aliquet imperdiet. Etiam in sagittis lectus. Suspendisse ultrices placerat
-                accumsan. Mauris quis dapibus orci. In dapibus velit blandit pharetra tincidunt. Quisque non sapien nec
-                lacus condimentum facilisis ut iaculis enim. Sed viverra interdum bibendum. Donec ac sollicitudin dolor.
-                Sed fringilla vitae lacus at rutrum. Phasellus congue vestibulum ligula sed consequat.</p>
-            <p>Vestibulum consectetur scelerisque lacus, ac fermentum lorem convallis sed. Nam odio tortor, dictum quis
-                malesuada at, pellentesque vitae orci. Vivamus elementum, felis eu auctor lobortis, diam velit egestas
-                lacus, quis fermentum metus ante quis urna. Sed at facilisis libero. Cum sociis natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus. Vestibulum bibendum blandit dolor. Nunc orci
-                dolor, molestie nec nibh in, hendrerit tincidunt ante. Vivamus sem augue, hendrerit non sapien in,
-                mollis ornare augue.</p>
+            <p>1965年，示范点的果树挂果销售。这一年，“花牛”苹果首次打入香港市场，在香港国际博览会上，因其色度、果型、肉质、含糖等四项指标均优于美国“蛇果”而一举夺魁，享誉全球。这一消息传来，全村人都兴奋不已。当年9月23日，花牛村果农精心挑选出两箱刚刚采摘的苹果向毛主席寄去（并在装寄苹果的木箱上写下了“花牛”二字），表达对主席的敬仰，主席品尝后，非常喜爱，并在家中会见时任甘肃省省长的天水籍著名人士邓宝珊时用天水苹果招待他，称赞道：“你家乡天水的苹果好吃！”。此后，中共中央办公厅专门致函，代表毛主席向花牛村村民致谢。
+                此后，我国正式以“花牛”作为苹果商标，向国外大量出口。</p>
+            <p>天水地区独特的地理、气候资源条件，生长出的苹果，与其它国家和地区生产的苹果相比，色、味、形俱佳。天水市“花牛”苹果与美国“蛇果”的内在品质相比，可溶性固形物高1.4%，含糖量高1.86%，苹果酸低0.08%。其顶端突出的五棱和高达0.96-1.0的果形指数、果实表面百分之百的鲜红艳丽色泽、12.5-15%的可溶性固形物含量、浓郁的香味和甜脆的口感，向世界充分展示了她独特的外部特征和优良内在品质。
+                “花牛”苹果已被许多中外专家和营销商认可为与美国蛇果、日本富士齐名的世界三大著名苹果品牌。在全国果品市场，不论何地生产的元帅系红苹果都是以“花牛”苹果的商标出售的。自从60年代天水“花牛”创出品牌后，近四十年，还没有哪一个苹果品牌能够替代“花牛”。2004年“首届中国（深圳）国际水果及技术展览会”上还获得“水果状元”及“最受深港地区消费者喜爱的系 列水果品牌”。那么，天水农民是如何种植出如此亮红的苹果，又是如何通过苹果的生产、加工、销售将市场带火、实现 增收的呢？本节目将去种植基地、市场、加工厂一探究竟。</p>
             <hr>
             <h2 id="section-3">葡萄</h2>
             <p>Integer pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel,
