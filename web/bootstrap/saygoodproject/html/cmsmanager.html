@@ -90,8 +90,14 @@
             getScanViewData();
         });
 
+        function refresh_data(){
+//            clearTimeout(interval);  //关闭定时器
+            window.location.reload();
+        }
+
         function submitForm(){
             var $submit_btn=$("#submit");
+            var interval;
             $submit_btn.bind("click",function(){
 
                 $.ajax({
@@ -106,10 +112,12 @@
 
                     success:function(data){
                         if (data && (data.message==("Upload Success") || data.message==("update Success"))){
-                            window.location.reload();
-                            alert("插入数据成功!");
+
+//                            alert("插入数据成功!");
+                            $("#success_alert").show();
+                            interval=setInterval(refresh_data, "5000");
                         }else{
-                            alert("系统异常,请稍后再试!");
+                            $("#success_alert").show();
                         }
 
                     },
@@ -204,6 +212,14 @@
     </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
+    <div id="success_alert" class="alert alert-success" hidden="hidden">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>成功！</strong>恭喜你数据库更新成功。
+    </div>
+    <div id="fail_alert" class="alert alert-warning" hidden="hidden">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong>失败！</strong>很遗憾,数据库更新失败,请稍后再试……
+    </div>
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-6 scanviewform">
