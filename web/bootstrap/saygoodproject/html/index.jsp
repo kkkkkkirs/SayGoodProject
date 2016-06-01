@@ -197,7 +197,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">好物网</a>
+            <img src="/bootstrap/saygoodproject/images/logo.png" style="width: 50px;height: 50px">
+            <%--<a class="navbar-brand" href="#">众口味</a>--%>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
