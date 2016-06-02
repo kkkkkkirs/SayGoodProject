@@ -5,13 +5,13 @@ body {
 }
 
 .title {
-    border-bottom: 1px solid #EFEFEF;
+    border-bottom: 1px solid #008000;
     padding: 10px 0;
 }
 
 .btn-gb {
     border-radius: 0;
-    background: orange;
+    background: #008000;
     padding: 15px 50px;
     border: 0px solid #fff;
     color: #FFF;
@@ -32,9 +32,9 @@ body {
 }
 
 .loginform {
-    background: #72AD7B;
+    background-color: transparent;
     padding: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 

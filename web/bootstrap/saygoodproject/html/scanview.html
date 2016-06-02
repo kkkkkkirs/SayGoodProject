@@ -92,7 +92,8 @@
             $.ajax({
                 type:"GET",
                 dataType:"json",
-                url:"http://localhost:8086/getscvmlist.action",
+//                url:"http://localhost:8086/getscvmlist.action",
+                url:"getscvmlist.action",
 //                data:{user:"",name="",token:""},
                 success:function(json){
 
@@ -188,16 +189,35 @@
         </table>
     </div>
 <div class="fixed-bottom">
-    <footer>
-        <div>
+    <!--<footer>-->
+        <!--<div>-->
 
-            Copyright &copy; 2015-2016
-            <strong><a href="http://www.runoob.com/" target="_blank">好物网</a></strong>&nbsp;
-            <strong><a href="http://www.runoob.com/" target="_blank">西部果品网</a></strong>
-            &nbsp;
-            <strong><a href="http://www.runoob.com/" target="_blank">应届生圈</a></strong> All Rights Reserved. 备案号：京ICP备15012807号-1
-        </div>
-    </footer>
+            <!--Copyright &copy; 2015-2016-->
+            <!--<strong><a href="http://www.runoob.com/" target="_blank">好物网</a></strong>&nbsp;-->
+            <!--<strong><a href="http://www.runoob.com/" target="_blank">西部果品网</a></strong>-->
+            <!--&nbsp;-->
+            <!--<strong><a href="http://www.runoob.com/" target="_blank">应届生圈</a></strong> All Rights Reserved. 备案号：京ICP备15012807号-1-->
+        <!--</div>-->
+    <!--</footer>-->
+    <nav>
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 </div>
 </body>
 </html>
