@@ -117,7 +117,7 @@
                             $("#success_alert").show();
                             interval=setInterval(refresh_data, "5000");
                         }else{
-                            $("#success_alert").show();
+                            $("#fail_alert").show();
                         }
 
                     },
@@ -227,10 +227,10 @@
         <div class="col-sm-6 scanviewform">
             <h4 class="title">请录入 <label style="color: green">扫码看</label> 数据表信息</h4>
             <form action="#" method="post">
-                <div class="form-group">
-                    <label for="serialize">编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</label>
-                    <input id="serialize" name="id" class="form-control" type="text"/>
-                </div>
+                <!--<div class="form-group">-->
+                    <!--<label for="serialize">编&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</label>-->
+                    <!--<input id="serialize" name="id" class="form-control" type="text"/>-->
+                <!--</div>-->
                 <div class="form-group">
                     <label for="title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题</label>
                     <input id="title" name="title" class="form-control" type="text"/>
