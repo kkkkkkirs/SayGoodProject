@@ -182,6 +182,15 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?b90b3a5b6966ec3c4916467b80b47b7c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 
 <body data-spy="scroll" data-target="#myScrollspy">
@@ -420,65 +429,47 @@
                 “花牛”苹果已被许多中外专家和营销商认可为与美国蛇果、日本富士齐名的世界三大著名苹果品牌。在全国果品市场，不论何地生产的元帅系红苹果都是以“花牛”苹果的商标出售的。自从60年代天水“花牛”创出品牌后，近四十年，还没有哪一个苹果品牌能够替代“花牛”。2004年“首届中国（深圳）国际水果及技术展览会”上还获得“水果状元”及“最受深港地区消费者喜爱的系 列水果品牌”。那么，天水农民是如何种植出如此亮红的苹果，又是如何通过苹果的生产、加工、销售将市场带火、实现 增收的呢？本节目将去种植基地、市场、加工厂一探究竟。</p>
             <hr>
             <h2 id="section-3">葡萄</h2>
-            <p>Integer pulvinar leo id risus pellentesque vestibulum. Sed diam libero, sodales eget sapien vel,
-                porttitor bibendum enim. Donec sed nibh vitae lorem porttitor blandit in nec ante. Pellentesque vitae
-                metus ipsum. Phasellus sed nunc ac sem malesuada condimentum. Etiam in aliquam lectus. Nam vel sapien
-                diam. Donec pharetra id arcu eget blandit. Proin imperdiet mattis augue in porttitor. Quisque tempus
-                enim id lobortis feugiat. Suspendisse tincidunt risus quis dolor fringilla blandit. Ut sed sapien at
-                purus lacinia porttitor. Nullam iaculis, felis a pretium ornare, dolor nisl semper tortor, vel sagittis
-                lacus est consequat eros. Sed id pretium nisl. Curabitur dolor nisl, laoreet vitae aliquam id, tincidunt
-                sit amet mauris.</p>
-            <p>Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor
-                egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac,
-                tincidunt fringilla massa. Etiam hendrerit dolor eget ante rutrum adipiscing. Cras interdum ipsum
-                mattis, tempus mauris vel, semper ipsum. Duis sed dolor ut enim lobortis pellentesque ultricies ac
-                ligula. Pellentesque convallis elit nisi, id vulputate ipsum ullamcorper ut. Cras ac pulvinar purus, ac
-                viverra est. Suspendisse potenti. Integer pellentesque neque et elementum tempus. Curabitur bibendum in
-                ligula ut rhoncus.</p>
-            <p>Quisque pharetra velit id velit iaculis pretium. Nullam a justo sed ligula porta semper eu quis enim.
-                Pellentesque pellentesque, metus at facilisis hendrerit, lectus velit facilisis leo, quis volutpat
-                turpis arcu quis enim. Nulla viverra lorem elementum interdum ultricies. Suspendisse accumsan quam nec
-                ante mollis tempus. Morbi vel accumsan diam, eget convallis tellus. Suspendisse potenti.</p>
+            <p>营养价值</p>
+            <p>
+                中医认为，葡萄性平、味甘酸，能补气血，强筋骨，益肝阴，利小便，舒筋活血，暖胃健脾，除烦解渴。现代医学则证明，葡萄中所含的多酚类物质是天然的自由基清除剂，具有很强的抗氧化活性，可以有效地调整肝脏细胞的功能，抵御或减少自由基对它们的伤害。此外，它还具有抗炎作用，能与细菌、病毒中的蛋白质结合，使它们失去致病能力。国外的研究证明，新鲜的葡萄、葡萄叶、葡萄干都具有抵抗病毒的能力。
+            </p>
+            <p>
+                葡萄中含有丰富的葡萄糖及多种维生素，对保护肝脏、减轻腹水和下肢浮肿的效果非常明显，还能提高血浆白蛋白，降低转氨酶。葡萄中的葡萄糖、有机酸、氨基酸、维生素对大脑神经有兴奋作用，对肝炎伴有的神经衰弱和疲劳症状有改善效果。葡萄中的果酸还能帮助消化、增加食欲，防止肝炎后脂肪肝的发生。
+            </p>
+            <p>
+                葡萄干是肝炎患者补充铁的重要来源。用葡萄根100?150克煎水服下，对黄疸型肝炎有?定辅助疗效 。一、吃醋葡萄干能够预防结肠癌 二、醋葡萄干对视力恢复非常有效 三、醋葡萄干能美化肌肤 四、吃醋葡萄能快速消除疲劳 五、醋葡萄干能改善贫血与恶性皮肤炎 六、醋葡萄干治好老花眼 七、醋葡萄干大幅度改善贫血 八、醋葡萄干治好皮肤病葡萄为葡萄科落叶木质藤本植物的果实，又名草龙珠、水晶明珠、蒲桃、蒲陶、李桃、山葫芦。葡萄被人们视为珍果，被誉为世界四大水果之首。它不但营养丰富、用途广泛：色美、气香，味可口，是果中佳品，既可鲜食又可加工成各种产品，如葡萄酒、葡萄汁、葡萄干等，而且果实、根、叶皆可入药，全身都是宝。
+            </p>
+            <p>
+                据测定，葡萄浆果除含水分外，还含有约15%～30%糖类(主要是葡萄糖、果糖和戊糖)，各种有机酸(苹果酸、酒石酸以及少量的柠檬酸、琥珀酸、没食子酸、草酸、水杨酸等)和矿物质，以及各种维生素、氨基酸、蛋白质、碳水化合物、粗纤维、钙、磷、铁、胡萝卜素、硫胺素、核黄素、尼克酸、抗坏血酸、卵磷脂等。特别是现代医学发现，葡萄皮和葡萄籽中含有一种抗氧化物质白藜芦醇，对心脑血管病有积极的预防和治疗作用。多吃葡萄、喝葡萄汁和适量饮用葡萄酒对人体健康很有好处，产后的妇女于饭后吃葡萄，或喝些葡萄酒，既可帮助血液循环，又可增加身体中的血色素。
+            </p>
+            <p>
+                葡萄汁、子、皮内均富含强力抗氧化物质??白藜芦醇及类黄酮等成分，它们在皮及子中的含有量上更胜一筹。白藜芦醇及类黄酮具有阿司匹林药物的溶栓、抗血凝效益，可防御缺血性脑中风，如脑梗塞、脑血栓等。 但是，葡萄虽属药果兼优的养生佳品，但祖国医学认为，其性寒凉，因此当脾胃不和、虚寒泄泻时应忌食。
+
+            </p>
             <hr>
             <h2 id="section-4">枸杞</h2>
-            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus
-                vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas
-                a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo
-                fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices
-                nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero
-                nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci
-                luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
-            <p>Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Ut
-                tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet
-                gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, commodo iaculis justo
-                viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi mi. Fusce quam tortor, commodo
-                ac dui quis, bibendum viverra erat. Maecenas mattis lectus enim, quis tincidunt dui molestie euismod.
-                Curabitur et diam tristique, accumsan nunc eu, hendrerit tellus.</p>
-            <p>Phasellus fermentum, neque sit amet sodales tempor, enim ante interdum eros, eget luctus ipsum eros ut
-                ligula. Nunc ornare erat quis faucibus molestie. Proin malesuada consequat commodo. Mauris iaculis, eros
-                ut dapibus luctus, massa enim elementum purus, sit amet tristique purus purus nec felis. Morbi
-                vestibulum sapien eget porta pulvinar. Nam at quam diam. Proin rhoncus, felis elementum accumsan dictum,
-                felis nisi vestibulum tellus, et ultrices risus felis in orci. Quisque vestibulum sem nisl, vel congue
-                leo dictum nec. Cras eget est at velit sagittis ullamcorper vel et lectus. In hac habitasse platea
-                dictumst. Etiam interdum iaculis velit, vel sollicitudin lorem feugiat sit amet. Etiam luctus, quam sed
-                sodales aliquam, lorem libero hendrerit urna, faucibus rhoncus massa nibh at felis. Curabitur ac tempus
-                nulla, ut semper erat. Vivamus porta ullamcorper sem, ornare egestas mauris facilisis id.</p>
-            <p>Ut ut risus nisl. Fusce porttitor eros at magna luctus, non congue nulla eleifend. Aenean porttitor
-                feugiat dolor sit amet facilisis. Pellentesque venenatis magna et risus commodo, a commodo turpis
-                gravida. Nam mollis massa dapibus urna aliquet, quis iaculis elit sodales. Sed eget ornare orci, eu
-                malesuada justo. Nunc lacus augue, dictum quis dui id, lacinia congue quam. Nulla sem sem, aliquam nec
-                dolor ac, tempus convallis nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla
-                suscipit convallis iaculis. Quisque eget commodo ligula. Praesent leo dui, facilisis quis eleifend in,
-                aliquet vitae nunc. Suspendisse fermentum odio ac massa ultricies pellentesque. Fusce eu suscipit
-                massa.</p>
+            <p>主要成份：枸杞子含甜菜碱（betane），阿托品（atropine），天仙子胺（gyoscyamine）。</P>
+            <p>枸杞多糖：枸杞多糖是一种水溶性多糖，是枸杞中最主要的活性成分，相对分子质量为68-200，成为国内外研究热点。其中又以枸杞多糖的免疫调节和抗肿瘤作用的研究最多。现已有很多研究表明枸杞多糖具有促进免疫、抗衰老、抗肿瘤、清除自由基、抗疲劳、抗辐射、保肝、生殖功能保护和改善等作用。</p>
+            <p>甜菜碱：化学名称为1-羧基-N，N，N-三甲氨基乙内酯，在化学结构上与氨基酸相似，属于季胺碱类物质。甜菜碱是枸杞果、叶、柄中主要的生物碱之一。枸杞对脂质代谢或抗脂肪肝的作用主要是由于所含的甜菜碱引起的，它在体内起甲基供应体的作用。关于枸杞甜菜碱的研究仅限于国内在含量的测定、提取工艺和对枸杞植物的生理作用（增强耐盐性）研究方面，关于枸杞甜菜碱的药理药效研究很少。</p>
+            <p>枸杞色素：枸杞色素是存在于枸杞浆果中的各类呈色物质，是枸杞籽的重要生理活性成分。主要包括-胡萝卜素、叶黄素和其他有色物质。枸杞所含有的类胡萝卜素则具有非常重要的药用价值。很多研究已经证明枸杞籽色素具有提高人体免疫功能、预防和抑制肿瘤及预防动脉粥样硬化等作用。胡萝卜素是枸杞色素的主要活性成分，具有抗氧化和作为维生素A的合成前体等重要的生理功能。</p>
+            <p>药理作用：对免疫功能有影响作用。</p>
+            <p>性味：枸杞子：甘，平。枸杞叶：苦、甘；性凉。</p>
+            <p>功能：枸杞子：养肝，滋肾，润肺。枸杞叶：补虚益精，清热明目。</p>
             <hr>
             <h2 id="section-5">党参</h2>
-            地域范围<br>
-　　　       陇西县的首阳镇、福星镇、马河镇、碧岩镇、柯寨乡、德兴乡、双泉乡、文峰镇、巩昌镇、菜子镇、通安驿镇<br>
-　　        特定品质<br>
-　　　　     陇西良好的种植条件造就了白条党参的优异品质：其状呈圆柱形，芦下3厘米~5厘米处最粗，长15厘米~45厘米，直径0.4厘米~1.8厘米，具"蛇形根头"，根头部有多数疣状突起的茎痕及芽；质较柔软带韧性，皮紧、肉厚、味甘，嚼之无渣，条长直、粗壮，色白质重，品质远好于全国其他产区党参，从而自成一品，国内外用户赞誉不绝。白条党参富含生物碱、挥发油、树脂、粘液质和维生素、蛋白质、淀粉、糖、矿物质等多种有益成分，有养血、健脾、补中、益气、降压、生津、抗癌之功效，常作为人参的代用品，俗称"小人参"。<br>
-　　        文化典故<br>
-　　　　     陇西白条党参为菊梗科植物党参的干燥根，因其主产甘肃陇西，色白条直，富含多种药用成分和保健元素，被誉为"陇西白条党参"。<br>
+            <p>地域范围</p>
+　　　       <p>
+            陇西县的首阳镇、福星镇、马河镇、碧岩镇、柯寨乡、德兴乡、双泉乡、文峰镇、巩昌镇、菜子镇、通安驿镇<br>
+            </p>
+　　        <p>特定品质</p>
+            <p>
+                陇西良好的种植条件造就了白条党参的优异品质：其状呈圆柱形，芦下3厘米~5厘米处最粗，长15厘米~45厘米，直径0.4厘米~1.8厘米，具"蛇形根头"，根头部有多数疣状突起的茎痕及芽；质较柔软带韧性，皮紧、肉厚、味甘，嚼之无渣，条长直、粗壮，色白质重，品质远好于全国其他产区党参，从而自成一品，国内外用户赞誉不绝。白条党参富含生物碱、挥发油、树脂、粘液质和维生素、蛋白质、淀粉、糖、矿物质等多种有益成分，有养血、健脾、补中、益气、降压、生津、抗癌之功效，常作为人参的代用品，俗称"小人参"。
+            </p>
+            <p>文化典故</p>
+            <p>
+                陇西白条党参为菊梗科植物党参的干燥根，因其主产甘肃陇西，色白条直，富含多种药用成分和保健元素，被誉为"陇西白条党参"。
+            </p>
+　　　　
         </div>
     </div>
 </div>
