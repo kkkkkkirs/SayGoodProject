@@ -473,34 +473,12 @@
                 massa.</p>
             <hr>
             <h2 id="section-5">党参</h2>
-            <p>Nam eget purus nec est consectetur vehicula. Nullam ultrices nisl risus, in viverra libero egestas sit
-                amet. Etiam porttitor dolor non eros pulvinar malesuada. Vestibulum sit amet est mollis nulla tempus
-                aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi consequat placerat magna, ac ornare odio
-                sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus ac justo porta volutpat.</p>
-            <p>Vivamus mattis accumsan erat, vel convallis risus pretium nec. Integer nunc nulla, viverra ut sem non,
-                scelerisque vehicula arcu. Fusce bibendum convallis augue sit amet lobortis. Cras porta urna turpis,
-                sodales lobortis purus adipiscing id. Maecenas ullamcorper, turpis suscipit pellentesque fringilla,
-                massa lacus pulvinar mi, nec dignissim velit arcu eget purus. Nam at dapibus tellus, eget euismod nisl.
-                Ut eget venenatis sapien. Vivamus vulputate varius mauris, vel varius nisl facilisis ac. Nulla aliquet
-                justo a nibh ornare, eu congue neque rutrum.</p>
-            <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus
-                vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas
-                a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo
-                fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices
-                nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero
-                nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci
-                luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
-            <p>Morbi sed fermentum ipsum. Morbi a orci vulputate tortor ornare blandit a quis orci. Donec aliquam
-                sodales gravida. In ut ullamcorper nisi, ac pretium velit. Vestibulum vitae lectus volutpat, consequat
-                lorem sit amet, pulvinar tellus. In tincidunt vel leo eget pulvinar. Curabitur a eros non lacus
-                malesuada aliquam. Praesent et tempus odio. Integer a quam nunc. In hac habitasse platea dictumst.
-                Aliquam porta nibh nulla, et mattis turpis placerat eget. Pellentesque dui diam, pellentesque vel
-                gravida id, accumsan eu magna. Sed a semper arcu, ut dignissim leo.</p>
-            <p>Sed vitae lobortis diam, id molestie magna. Aliquam consequat ipsum quis est dictum ultrices. Aenean nibh
-                velit, fringilla in diam id, blandit hendrerit lacus. Donec vehicula rutrum tellus eget fermentum.
-                Pellentesque ac erat et arcu ornare tincidunt. Aliquam erat volutpat. Vivamus lobortis urna quis gravida
-                semper. In condimentum, est a faucibus luctus, mi dolor cursus mi, id vehicula arcu risus a nibh.
-                Pellentesque blandit sapien lacus, vel vehicula nunc feugiat sit amet.</p>
+            地域范围<br>
+　　　       陇西县的首阳镇、福星镇、马河镇、碧岩镇、柯寨乡、德兴乡、双泉乡、文峰镇、巩昌镇、菜子镇、通安驿镇<br>
+　　        特定品质<br>
+　　　　     陇西良好的种植条件造就了白条党参的优异品质：其状呈圆柱形，芦下3厘米~5厘米处最粗，长15厘米~45厘米，直径0.4厘米~1.8厘米，具"蛇形根头"，根头部有多数疣状突起的茎痕及芽；质较柔软带韧性，皮紧、肉厚、味甘，嚼之无渣，条长直、粗壮，色白质重，品质远好于全国其他产区党参，从而自成一品，国内外用户赞誉不绝。白条党参富含生物碱、挥发油、树脂、粘液质和维生素、蛋白质、淀粉、糖、矿物质等多种有益成分，有养血、健脾、补中、益气、降压、生津、抗癌之功效，常作为人参的代用品，俗称"小人参"。<br>
+　　        文化典故<br>
+　　　　     陇西白条党参为菊梗科植物党参的干燥根，因其主产甘肃陇西，色白条直，富含多种药用成分和保健元素，被誉为"陇西白条党参"。<br>
         </div>
     </div>
 </div>
