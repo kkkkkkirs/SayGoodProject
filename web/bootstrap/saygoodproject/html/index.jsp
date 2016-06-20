@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>好物网</title>
+    <title>众口味网-首页</title>
+    <meta name="keywords" content="西部果品网,圈内,花椒,苹果,葡萄,枸杞,众口味"/>
+    <meta name="description" content="众口味网 是一家在线服务类互联网公司,以人们最切近,最需要的服务为项目选型,崛起于西部,选取西部最具特色水果,食材,药材,补品,我们本着为西部农民打开销路,为全国人民广而告之,并提供分销服务的原则." />
 
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
