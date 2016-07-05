@@ -238,7 +238,7 @@
                 <button type="submit" class="btn btn-default">GO</button>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">圈内</a></li>
+                <li><a href="http://www.haowuyun.com/mblog/">圈内</a></li>
                 <li><a href="/bootstrap/saygoodproject/html/scanview.html">扫码看</a></li> <li><a href="/bootstrap/saygoodproject/html/login_sign.html">登录 | 注册</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -476,9 +476,13 @@
     </div>
 </div>
 <div class="fixed-bottom">
-    <footer>
-        <jsp:include page="/bootstrap/saygoodproject/html/footer.html"></jsp:include>
-    </footer>
+    <div>
+
+        Copyright &copy; 2015-2016
+        <strong>&nbsp;&nbsp;<a href="http://www.haowuyun.com/mblog" target="_blank">LoveInLog&锁爱</a></strong>&nbsp;
+        &nbsp;
+         All Rights Reserved. <a href="http://www.miitbeian.gov.cn/">备案号：京ICP备16030050号</a>
+    </div>
 </div>
 </body>
 </html>
